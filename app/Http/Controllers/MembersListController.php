@@ -9,7 +9,7 @@ class MembersListController extends Controller
     public function index()
     {
         return view('pages.members.index', [
-            'users' => User::all(),
+            'users' => User::all()->sortBy('name'),
         ]);
     }
     public function show(User $user)
