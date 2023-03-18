@@ -89,10 +89,21 @@
                     <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         {{ __('Home') }}
                      </x-responsive-nav-link>
+                     @auth
+                            @else
+                            <x-responsive-nav-link :href="route('login')" :active="request()->routeIs('login')">
+                                {{ __('Login') }}
+                            </x-responsive-nav-link>
+                            @if (Route::has('register'))
+                                <x-responsive-nav-link :href="route('register')" :active="request()->routeIs('register')">
+                                    {{ __('Register') }}
+                                </x-responsive-nav-link>
+                            @endif
+                        @endauth
                     @auth
                     <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
-                     </x-nav-link>
+                     </x-responsive-nav-link>
                     <x-responsive-nav-link :href="route('membership')" :active="request()->routeIs('membership')">
                         {{ __('Membership') }}
                     </x-responsive-nav-link>
