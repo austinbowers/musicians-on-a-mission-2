@@ -31,10 +31,10 @@
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 @auth
                 @else
-                <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                <a href="{{ route('login') }}" class="text-sm text-red-500 font-medium">Login</a>
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                                <a href="{{ route('register') }}" class="ml-4 text-sm text-red-500 font-medium">Register</a>
                             @endif
                 @endauth
                 <x-dropdown align="right" width="48">
