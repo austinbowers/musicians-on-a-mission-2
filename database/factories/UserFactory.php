@@ -19,10 +19,12 @@ class UserFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'bio' => fake()->paragraph(4),
+            'bio' => fake()->paragraph(20),
+            'genre' => fake()->word(),
             'website' => fake()->unique()->safeEmail(),
             'facebook' => fake()->unique()->safeEmail(),
             'instagram' => fake()->unique()->safeEmail(),
+            'image_path' => fake()->imageUrl(360, 360, 'animals', true, 'cats'),
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password

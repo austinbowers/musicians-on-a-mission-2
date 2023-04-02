@@ -7,10 +7,10 @@
                         @foreach ($users as $user)
                         <li>
                             <a href="/members/{{ $user->id }}" class="flex group items-center gap-x-4">
-                                <div class="h-16 w-16 rounded-full group-hover:border group-hover:border-red-300 bg-gray-200"></div>
+                                <div style="background-image: url('{{ asset('/images/' . $user->image_path) }}');" class="h-20 w-20 bg-center rounded-full group-hover:outline group-hover:outline-red-300 bg-cover bg-no-repeat"></div>
                                 <div>
                                     <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">{{ $user->name }}</h3>
-                                    <p class="text-sm font-semibold leading-6 text-red-500">Folk / Pop</p>
+                                    <p class="text-sm  font-semibold leading-6 text-red-500">{{ $user->genre ?? "N/A" }}</p>
                                 </div>
                             </a>
                         </li>

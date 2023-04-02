@@ -47,34 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden bg-white py-24 sm:py-32">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div
-                        class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 items-center gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                        <div class="lg:pr-8 lg:pt-4">
-                            <div class="lg:max-w-lg">
-                                <h2 class="text-lg font-semibold leading-8 tracking-tight text-red-600">Become a member
-                                </h2>
-                                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Support
-                                    local music
-                                    and local charities in New Jersey!</p>
-                                <p class="mt-6 text-lg leading-8 text-gray-600">Our mission is to create connections and
-                                    inspire
-                                    giving through music. We raise awareness and funds
-                                    for local charitable organizations through planned musical events showcasing New
-                                    Jersey
-                                    performers.</p>
             
-                            </div>
-                        </div>
-            
-                        <img src="https://musiciansonamission.wildapricot.org/Resources/Pictures/DSCF1571.JPG"
-                            alt="Membership screenshot"
-                            class="w-[40rem] max-w-none shadow-xl rounded-l-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0">
-            
-                    </div>
-                </div>
-            </div>
             <div class="py-24 sm:py-32">
                 <div class="mx-auto max-w-screen-xl px-6 lg:px-8">
                     <div>
@@ -201,9 +174,6 @@
                             </div>
                         </dl>
                     </div>
-
                 </div>
-                
             </div>
-
 </x-main-layout>
