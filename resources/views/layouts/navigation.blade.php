@@ -14,9 +14,13 @@
                     <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         {{ __('Home') }}
                      </x-nav-link>
+                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
+                        {{ __('About Us') }}
+                    </x-nav-link>
                      <x-nav-link :href="route('members')" :active="request()->routeIs('members')">
                         {{ __('Members List') }}
                     </x-nav-link>
+                    
                     @auth
                     <x-nav-link :href="route('membership')" :active="request()->routeIs('membership')">
                         {{ __('Membership') }}
@@ -88,6 +92,9 @@
         <div class="pt-2 pb-3 space-y-1">
                     <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         {{ __('Home') }}
+                     </x-responsive-nav-link>
+                     <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
+                        {{ __('About Us') }}
                      </x-responsive-nav-link>
                      <x-responsive-nav-link :href="route('members')" :active="request()->routeIs('members')">
                         {{ __('Members List') }}

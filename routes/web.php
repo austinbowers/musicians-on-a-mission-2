@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\StripeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomepageController;
@@ -21,6 +22,8 @@ Route::get('/', [HomepageController::class, 'index'])->name('home');
 
 Route::get('/members', [MembersListController::class, 'index'])->name('members');
 Route::get('/members/{user}', [MembersListController::class, 'show']);
+
+Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
