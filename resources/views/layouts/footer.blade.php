@@ -40,9 +40,9 @@
             <div class="grid grid-cols-2 lg:grid-cols-6 gap-6 mt-12">
                 <div class="column-1 space-y-5">
                     <p class="font-semibold text-white">About Us</p>
-                    <a href="" class="block font-medium text-gray-500 hover:text-gray-400">Our values</a>
-                    <a href="" class="block font-medium text-gray-500 hover:text-gray-400">Our mission</a>
-                    <a href="" class="block font-medium text-gray-500 hover:text-gray-400">Our beliefs</a>
+                    <a href="/about#mission" class="block font-medium text-gray-500 hover:text-gray-400">Our mission</a>
+                    <a href="/about#vision" class="block font-medium text-gray-500 hover:text-gray-400">Our vision</a>
+                    <a href="/about#beliefs" class="block font-medium text-gray-500 hover:text-gray-400">Our beliefs</a>
                 </div>
                 <div class="column-1 space-y-5">
                     <p class="font-semibold text-white">Get Involved</p>

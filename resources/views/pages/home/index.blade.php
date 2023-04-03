@@ -55,12 +55,12 @@
                         <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Come out and enjoy
                             local
                             events</p>
-                        <p class="mt-6 text-lg leading-8 text-gray-600">If you're looking to meet new people, become a
+                        <p class="mt-3 text-lg leading-8 text-gray-600">If you're looking to meet new people, become a
                             part of
                             the community, or would love to find new music, some of these yearly occuring events may be
                             something you're interested in attending.</p>
                     </div>
-                    <div class="mt-16 max-w-4xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
+                    <div class="mt-12 max-w-4xl lg:max-w-7xl">
                         <dl class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-8 lg:gap-y-16">
                             <div class="relative">
                                 <dt class="text-lg font-semibold leading-7 text-gray-900">

@@ -5,6 +5,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\StripeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\CharitiesController;
 use App\Http\Controllers\MembersListController;
 
 /*
@@ -24,6 +25,8 @@ Route::get('/members', [MembersListController::class, 'index'])->name('members')
 Route::get('/members/{user}', [MembersListController::class, 'show']);
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/charities', [CharitiesController::class, 'index'])->name('charities');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
